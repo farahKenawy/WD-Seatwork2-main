@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* / body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background-color: gainsboro;
+}
+
+ul{
+  list-style-type: none;
+}
+main {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 33% 1fr;
+  grid-gap: 1rem;
+  font-family: "Roboto", sans-serif;
+  filter: drop-shadow(0 0 0.3rem black);
+}
+
+.personal{
+  line-height: 2rem;
+  padding: 2rem;
+}
+.skills, .languages{
+  padding: 0.3rem;
+  line-height: 0.5rem;
+}
+.left, .acadorgs, .education {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.left-image {
+    position: relative;
+}
+
+.left-image img{
+  width: 100%;
+}
+.left-image h2{
+  font-size: 35px;
+  text-shadow: 8px 8px 8px black;
+  color: white;
+  position:absolute;
+  bottom: 0;
+  left:1rem
+}
+
+.acadorgs{
+  line-height: 1.5rem;
+  padding: 2rem
+}
+.acadorgs ul{
+  margin: 2rem 0;
+}
+
+.current{
+  background-color: black;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 3px;
+}
+
+.education{
+  margin-top: 2rem;
+  line-height: 2rem;
+  padding: 2rem
+}
+
+footer{
+  text-align: center;
+  padding: 2rem 0;
+  line-height: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.fa-brands:hover {
+  background-color: gray;
+  border-radius: 50%;
+  transition-duration: 0.3;
+}
+
+.fa-brands {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  }
+
+
+
+
